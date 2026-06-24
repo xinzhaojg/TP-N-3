@@ -1,0 +1,15 @@
+.hero{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUteVnRUFTyEsxYcLkDyO40mChyphenhyphen_FE9nck9JZAb8_Z32IBdcbE4mYW2VeS_P9TY7tCuuXkwGZ_22i4ebsbVKVpR_gZvEqYy5eUtpwFYp85Ag40UyyypvUr66sedlPmUi7o2j4frqhn4FE/s1600/pr.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.2);
+}

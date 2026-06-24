@@ -1,0 +1,57 @@
+
+#contacto {
+    padding: 50px 0;
+}
+
+#contacto .card {
+    background-color: #111;
+    border: 2px solid #dc3545;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(220, 53, 69, 0.4);
+    transition: 0.3s ease;
+}
+
+#contacto .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 35px rgba(220, 53, 69, 0.7);
+}
+
+#contacto .card-header {
+    background-color: #dc3545;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#contacto .card-body {
+    padding: 40px;
+    color: white;
+}
+
+#contacto .card-body p {
+    color: #cccccc;
+    font-size: 1.1rem;
+}
+
+#contacto .list-group-item {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+
+#contacto .list-group-item:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+#contacto .card-footer {
+    background-color: #050505;
+    color: #888;
+    border-top: 1px solid #dc3545;
+    padding: 15px;
+}

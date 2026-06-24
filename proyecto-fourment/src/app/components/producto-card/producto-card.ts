@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Producto } from '../../models/producto/producto';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-producto-card',
-  imports: [Input, Output, Producto, EventEmitter],
+  imports: [CommonModule],
   templateUrl: './producto-card.html',
   styleUrl: './producto-card.css',
 })

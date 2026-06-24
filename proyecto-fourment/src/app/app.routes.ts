@@ -8,7 +8,9 @@ import { NotFound }   from './pages/not-found/not-found';
 
 export const routes: Routes = [
  { path: '',          component: Inicio },
-{ path: 'productos', component: Productos },
+  { path: 'inicio',          component: Inicio },
+  
+ { path: 'productos', component: Productos },
   { path: 'contacto',  component: Contacto },
     { path: 'nosotros', component: Nosotros},
   { path: '**',        component: NotFound }, 
